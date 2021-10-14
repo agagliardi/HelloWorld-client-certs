@@ -31,4 +31,5 @@ dotnet run
 
 ## Troubleshooting
 Enable SChannel logging: https://docs.microsoft.com/en-us/troubleshoot/iis/enable-schannel-event-logging
+          
 Enable AMQ/Artemis Java network tracing with `DEBUG_ARGS=-Djavax.net.debug=all` on top of `artemis.profile`
