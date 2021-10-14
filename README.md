@@ -11,7 +11,7 @@ Download the AMQ Client .Net Core from the Red Hat Download website
 Install the NuGet package locally
 Build the project
 ~~~
-dotnet build "c:\project\sources\HelloWorld-client-certs\HelloWorld-client-certs.csproj"
+dotnet build .
 ~~~
 Create all required certificates with the `gen-win-ssl-certs.bat`.
 **NOTE** Windows 2016 requires sha256 certificates
